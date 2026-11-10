@@ -9,6 +9,7 @@ use Illuminate\Validation\Rule;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\Title;
 use Livewire\Component;
+use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 use Livewire\WithFileUploads;
 
 #[Layout('components.layouts.app')]
@@ -29,7 +30,7 @@ class Profile extends Component
 
     public string $password_confirmation = '';
 
-    public $photo;
+    public ?TemporaryUploadedFile $photo = null;
 
     public function mount(): void
     {
@@ -70,6 +71,10 @@ class Profile extends Component
     public function updatedPhoto(): void
     {
         $this->validate(['photo' => ['image', 'max:2048']]);
+
+        if ($this->photo === null) {
+            return;
+        }
 
         app(ProfileService::class)->updatePhoto(Auth::user(), $this->photo);
 

@@ -17,8 +17,8 @@ use Illuminate\Support\Carbon;
  * @property string|null $sku
  * @property string|null $description
  * @property int $quantity
- * @property string|null $unit
- * @property string $price
+ * @property string $unit
+ * @property string|null $price
  * @property int $min_stock
  * @property StockStatus $status
  * @property string|null $cover_image_path
