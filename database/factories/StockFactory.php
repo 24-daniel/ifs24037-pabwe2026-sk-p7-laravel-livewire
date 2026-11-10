@@ -21,7 +21,7 @@ class StockFactory extends Factory
 
         return [
             'user_id' => User::factory(),
-            'name' => ucfirst(fake()->words(3, true)),
+            'name' => ucfirst(fake()->word().' '.fake()->word().' '.fake()->word()),
             'sku' => strtoupper(fake()->unique()->bothify('SKU-####')),
             'description' => fake()->sentence(),
             'quantity' => $quantity,

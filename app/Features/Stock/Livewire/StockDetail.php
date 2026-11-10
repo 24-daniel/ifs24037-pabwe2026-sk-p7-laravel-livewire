@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Gate;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\Title;
 use Livewire\Component;
+use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 use Livewire\WithFileUploads;
 
 #[Layout('components.layouts.app')]
@@ -35,7 +36,8 @@ class StockDetail extends Component
 
     public string $min_stock = '5';
 
-    public $cover;
+    /** @var TemporaryUploadedFile|null */
+    public $cover = null;
 
     public function mount(Stock $stock): void
     {
@@ -110,6 +112,10 @@ class StockDetail extends Component
         Gate::authorize('update', $this->stock);
 
         $this->validate(['cover' => ['image', 'max:2048']]);
+
+        if ($this->cover === null) {
+            return;
+        }
 
         $this->stock = app(StockService::class)->updateCover($this->stock, $this->cover);
         $this->reset('cover');

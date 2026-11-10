@@ -15,6 +15,7 @@ use Livewire\Attributes\Layout;
 use Livewire\Attributes\Title;
 use Livewire\Attributes\Url;
 use Livewire\Component;
+use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 use Livewire\WithFileUploads;
 use Livewire\WithPagination;
 use RuntimeException;
@@ -54,7 +55,8 @@ class StockList extends Component
 
     public bool $showImport = false;
 
-    public $importFile;
+    /** @var TemporaryUploadedFile|null */
+    public $importFile = null;
 
     public bool $showAi = false;
 
@@ -175,7 +177,7 @@ class StockList extends Component
 
     public function export(StockExcelService $excel, StockRepositoryInterface $repository): StreamedResponse
     {
-        $content = $excel->export($repository->allForUser(Auth::id()));
+        $content = $excel->export($repository->allForUser((int) Auth::id()));
 
         return response()->streamDownload(function () use ($content): void {
             echo $content;
@@ -203,8 +205,12 @@ class StockList extends Component
             'importFile' => ['required', 'file', 'extensions:xlsx,xls,csv', 'max:2048'],
         ]);
 
+        if ($this->importFile === null) {
+            return;
+        }
+
         try {
-            $count = $excel->import(Auth::user(), $this->importFile->getRealPath());
+            $count = $excel->import(Auth::user(), (string) $this->importFile->getRealPath());
         } catch (Throwable) {
             $this->addError('importFile', 'File tidak bisa dibaca. Pakai file hasil Ekspor sebagai contoh format.');
 
@@ -289,7 +295,7 @@ class StockList extends Component
 
     public function render(StockRepositoryInterface $repository): View
     {
-        $userId = Auth::id();
+        $userId = (int) Auth::id();
 
         return view('livewire.stock.stock-list', [
             'stocks' => $repository->paginateForUser(

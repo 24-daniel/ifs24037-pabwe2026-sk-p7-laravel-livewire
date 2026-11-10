@@ -10,6 +10,9 @@ use Illuminate\Pagination\LengthAwarePaginator;
 
 class StockRepository implements StockRepositoryInterface
 {
+    /**
+     * @return LengthAwarePaginator<int, Stock>
+     */
     public function paginateForUser(int $userId, ?string $search = null, ?string $status = null, int $perPage = 10): LengthAwarePaginator
     {
         return Stock::query()
@@ -25,6 +28,9 @@ class StockRepository implements StockRepositoryInterface
             ->paginate($perPage);
     }
 
+    /**
+     * @return Collection<int, Stock>
+     */
     public function allForUser(int $userId): Collection
     {
         return Stock::query()->where('user_id', $userId)->orderBy('name')->get();

@@ -49,6 +49,8 @@ class User extends Authenticatable
 
     /**
      * Semua stok milik user ini.
+     *
+     * @return HasMany<Stock, $this>
      */
     public function stocks(): HasMany
     {

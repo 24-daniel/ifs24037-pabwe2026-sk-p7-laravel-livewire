@@ -8,8 +8,14 @@ use Illuminate\Pagination\LengthAwarePaginator;
 
 interface StockRepositoryInterface
 {
+    /**
+     * @return LengthAwarePaginator<int, Stock>
+     */
     public function paginateForUser(int $userId, ?string $search = null, ?string $status = null, int $perPage = 10): LengthAwarePaginator;
 
+    /**
+     * @return Collection<int, Stock>
+     */
     public function allForUser(int $userId): Collection;
 
     /**

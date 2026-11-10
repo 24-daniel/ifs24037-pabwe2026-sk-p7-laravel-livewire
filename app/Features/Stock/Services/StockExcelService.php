@@ -33,7 +33,7 @@ class StockExcelService
     public function __construct(private readonly StockService $stockService) {}
 
     /**
-     * @param  iterable<Stock>  $stocks
+     * @param  iterable<int, Stock>  $stocks
      */
     public function export(iterable $stocks): string
     {
