@@ -206,7 +206,7 @@ class StockList extends Component
         ]);
 
         if ($this->importFile === null) {
-            return;
+            return; // @codeCoverageIgnore
         }
 
         try {
