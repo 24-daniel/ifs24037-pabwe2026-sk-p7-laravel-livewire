@@ -2,6 +2,7 @@
 
 namespace App\Features\Stock\Services;
 
+use App\Features\Stock\Models\Stock;
 use App\Models\User;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -32,7 +33,7 @@ class StockExcelService
     public function __construct(private readonly StockService $stockService) {}
 
     /**
-     * @param  iterable<\App\Features\Stock\Models\Stock>  $stocks
+     * @param  iterable<Stock>  $stocks
      */
     public function export(iterable $stocks): string
     {
