@@ -14,7 +14,11 @@ class EnsureStockOwnership
         $stock = $request->route('stock');
 
         if (! $stock instanceof Stock) {
-            $stock = Stock::query()->findOrFail(is_numeric($stock) ? (int) $stock : 0);
+            $stock = is_numeric($stock) ? Stock::query()->find((int) $stock) : null;
+
+            if (! $stock) {
+                abort(404);
+            }
         }
 
         if (! $request->user() || $request->user()->id !== $stock->user_id) {

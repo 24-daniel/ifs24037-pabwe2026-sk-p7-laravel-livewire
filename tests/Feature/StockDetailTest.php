@@ -81,7 +81,15 @@ class StockDetailTest extends TestCase
 
     public function test_cover_invalid_and_null(): void
     {
-        $this->lw()->set('cover', UploadedFile::fake()->create('x.pdf', 10, 'application/pdf'))->assertHasErrors('cover');
-        $this->lw()->call('updatedCover')->assertNotDispatched('notify');
+        // file bukan gambar -> validasi gagal
+        $this->lw()
+            ->set('cover', UploadedFile::fake()->create('x.pdf', 10, 'application/pdf'))
+            ->assertHasErrors('cover');
+
+        // cover dikembalikan ke null -> hook updatedCover jalan tanpa file, tidak ada notify
+        $this->lw()
+            ->set('cover', UploadedFile::fake()->create('x.pdf', 10, 'application/pdf'))
+            ->set('cover', null)
+            ->assertNotDispatched('notify');
     }
 }

@@ -73,8 +73,15 @@ class ProfileTest extends TestCase
         Storage::fake('public');
         $user = User::factory()->create();
 
+        // file bukan gambar -> validasi gagal
         Livewire::actingAs($user)->test(Profile::class)
-            ->set('photo', UploadedFile::fake()->create('x.pdf', 10, 'application/pdf'))->assertHasErrors('photo');
-        Livewire::actingAs($user)->test(Profile::class)->call('updatedPhoto')->assertNoRedirect();
+            ->set('photo', UploadedFile::fake()->create('x.pdf', 10, 'application/pdf'))
+            ->assertHasErrors('photo');
+
+        // photo dikembalikan ke null -> hook updatedPhoto jalan tanpa file, tidak ada redirect
+        Livewire::actingAs($user)->test(Profile::class)
+            ->set('photo', UploadedFile::fake()->create('x.pdf', 10, 'application/pdf'))
+            ->set('photo', null)
+            ->assertNoRedirect();
     }
 }
