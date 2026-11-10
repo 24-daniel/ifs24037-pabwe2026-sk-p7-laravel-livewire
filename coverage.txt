@@ -1,0 +1,56 @@
+
+
+[1;37;40mCode Coverage Report:       [0m
+[1;37;40m  2026-11-10 15:45:03       [0m
+[1;37;40m                            [0m
+[1;37;40m Summary:                   [0m
+[30;42m  Classes: 100.00% (23/23)  [0m
+[30;42m  Methods: 100.00% (98/98)  [0m
+[30;42m  Lines:   100.00% (498/498)[0m
+
+App\Features\Admin\Livewire\AdminUserStockList
+  [30;42mMethods: 100.00% ( 4/ 4)[0m   [30;42mLines: 100.00% ( 12/ 12)[0m
+App\Features\Admin\Livewire\UserList
+  [30;42mMethods: 100.00% ( 2/ 2)[0m   [30;42mLines: 100.00% (  4/  4)[0m
+App\Features\Admin\Services\AdminUserService
+  [30;42mMethods: 100.00% ( 4/ 4)[0m   [30;42mLines: 100.00% ( 14/ 14)[0m
+App\Features\Ai\DTO\GeneratedStockItem
+  [30;42mMethods: 100.00% ( 3/ 3)[0m   [30;42mLines: 100.00% ( 25/ 25)[0m
+App\Features\Ai\Services\OpenAiStockGeneratorService
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% ( 29/ 29)[0m
+App\Features\Auth\Actions\LoginUserAction
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% (  2/  2)[0m
+App\Features\Auth\Actions\RegisterUserAction
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% (  7/  7)[0m
+App\Features\Auth\Livewire\Login
+  [30;42mMethods: 100.00% ( 2/ 2)[0m   [30;42mLines: 100.00% (  7/  7)[0m
+App\Features\Auth\Livewire\Register
+  [30;42mMethods: 100.00% ( 3/ 3)[0m   [30;42mLines: 100.00% ( 12/ 12)[0m
+App\Features\Profile\Livewire\Profile
+  [30;42mMethods: 100.00% ( 6/ 6)[0m   [30;42mLines: 100.00% ( 27/ 27)[0m
+App\Features\Profile\Services\ProfileService
+  [30;42mMethods: 100.00% ( 5/ 5)[0m   [30;42mLines: 100.00% ( 15/ 15)[0m
+App\Features\Stock\Enums\StockStatus
+  [30;42mMethods: 100.00% ( 3/ 3)[0m   [30;42mLines: 100.00% ( 15/ 15)[0m
+App\Features\Stock\Livewire\StockDetail
+  [30;42mMethods: 100.00% (10/10)[0m   [30;42mLines: 100.00% ( 52/ 52)[0m
+App\Features\Stock\Livewire\StockList
+  [30;42mMethods: 100.00% (20/20)[0m   [30;42mLines: 100.00% (119/119)[0m
+App\Features\Stock\Models\Stock
+  [30;42mMethods: 100.00% ( 3/ 3)[0m   [30;42mLines: 100.00% (  8/  8)[0m
+App\Features\Stock\Policies\StockPolicy
+  [30;42mMethods: 100.00% ( 5/ 5)[0m   [30;42mLines: 100.00% (  5/  5)[0m
+App\Features\Stock\Repositories\StockRepository
+  [30;42mMethods: 100.00% ( 6/ 6)[0m   [30;42mLines: 100.00% ( 23/ 23)[0m
+App\Features\Stock\Services\StockExcelService
+  [30;42mMethods: 100.00% ( 3/ 3)[0m   [30;42mLines: 100.00% ( 57/ 57)[0m
+App\Features\Stock\Services\StockService
+  [30;42mMethods: 100.00% ( 8/ 8)[0m   [30;42mLines: 100.00% ( 35/ 35)[0m
+App\Http\Middleware\EnsureRole
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% (  4/  4)[0m
+App\Http\Middleware\EnsureStockOwnership
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% (  8/  8)[0m
+App\Models\User
+  [30;42mMethods: 100.00% ( 4/ 4)[0m   [30;42mLines: 100.00% ( 10/ 10)[0m
+App\Providers\AppServiceProvider
+  [30;42mMethods: 100.00% ( 2/ 2)[0m   [30;42mLines: 100.00% (  8/  8)[0m

@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1794325502">
+  <project timestamp="1794325502" name="Clover Coverage">
+    <package name="App\Features\Admin\Livewire">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Admin\Livewire\AdminUserStockList.php">
+        <class name="App\Features\Admin\Livewire\AdminUserStockList" namespace="App\Features\Admin\Livewire">
+          <metrics complexity="6" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="16" coveredelements="16"/>
+        </class>
+        <line num="28" type="method" name="mount" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="33" type="method" name="updatedSearch" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="38" type="method" name="updatedStatusFilter" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="43" type="method" name="render" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="45" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <metrics loc="56" ncloc="56" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="16" coveredelements="16"/>
+      </file>
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Admin\Livewire\UserList.php">
+        <class name="App\Features\Admin\Livewire\UserList" namespace="App\Features\Admin\Livewire">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+        </class>
+        <line num="22" type="method" name="updatedSearch" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="27" type="method" name="render" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <metrics loc="34" ncloc="34" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+      </file>
+    </package>
+    <package name="App\Features\Admin\Services">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Admin\Services\AdminUserService.php">
+        <class name="App\Features\Admin\Services\AdminUserService" namespace="App\Features\Admin\Services">
+          <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="18" coveredelements="18"/>
+        </class>
+        <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="18" type="method" name="paginateUsers" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="36" type="method" name="paginateStocksOf" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="44" type="method" name="statusCountsOf" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <metrics loc="49" ncloc="40" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="18" coveredelements="18"/>
+      </file>
+    </package>
+    <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Ai\Contracts\AiClientInterface.php">
+      <metrics loc="14" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="App\Features\Ai\DTO">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Ai\DTO\GeneratedStockItem.php">
+        <class name="App\Features\Ai\DTO\GeneratedStockItem" namespace="App\Features\Ai\DTO">
+          <metrics complexity="10" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="25" elements="28" coveredelements="28"/>
+        </class>
+        <line num="7" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="15" type="stmt" count="3"/>
+        <line num="20" type="method" name="fromArray" visibility="public" complexity="8" crap="8" count="3"/>
+        <line num="22" type="stmt" count="3"/>
+        <line num="23" type="stmt" count="3"/>
+        <line num="24" type="stmt" count="3"/>
+        <line num="25" type="stmt" count="3"/>
+        <line num="26" type="stmt" count="3"/>
+        <line num="27" type="stmt" count="3"/>
+        <line num="29" type="stmt" count="3"/>
+        <line num="30" type="stmt" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="32" type="stmt" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="34" type="stmt" count="3"/>
+        <line num="35" type="stmt" count="3"/>
+        <line num="36" type="stmt" count="3"/>
+        <line num="37" type="stmt" count="3"/>
+        <line num="43" type="method" name="toArray" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="45" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <metrics loc="56" ncloc="50" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="25" elements="28" coveredelements="28"/>
+      </file>
+    </package>
+    <package name="App\Features\Ai\Services">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Ai\Services\OpenAiStockGeneratorService.php">
+        <class name="App\Features\Ai\Services\OpenAiStockGeneratorService" namespace="App\Features\Ai\Services">
+          <metrics complexity="6" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="29" elements="30" coveredelements="30"/>
+        </class>
+        <line num="12" type="method" name="generate" visibility="public" complexity="6" crap="6" count="4"/>
+        <line num="14" type="stmt" count="4"/>
+        <line num="16" type="stmt" count="4"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="3"/>
+        <line num="21" type="stmt" count="3"/>
+        <line num="22" type="stmt" count="3"/>
+        <line num="24" type="stmt" count="3"/>
+        <line num="25" type="stmt" count="3"/>
+        <line num="26" type="stmt" count="3"/>
+        <line num="27" type="stmt" count="3"/>
+        <line num="28" type="stmt" count="3"/>
+        <line num="29" type="stmt" count="3"/>
+        <line num="30" type="stmt" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="32" type="stmt" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="34" type="stmt" count="3"/>
+        <line num="36" type="stmt" count="3"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="2"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <metrics loc="55" ncloc="55" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="29" elements="30" coveredelements="30"/>
+      </file>
+    </package>
+    <package name="App\Features\Auth\Actions">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Auth\Actions\LoginUserAction.php">
+        <class name="App\Features\Auth\Actions\LoginUserAction" namespace="App\Features\Auth\Actions">
+          <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="9" type="method" name="execute" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="11" type="stmt" count="2"/>
+        <line num="13" type="stmt" count="2"/>
+        <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Auth\Actions\RegisterUserAction.php">
+        <class name="App\Features\Auth\Actions\RegisterUserAction" namespace="App\Features\Auth\Actions">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="8" coveredelements="8"/>
+        </class>
+        <line num="12" type="method" name="execute" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <metrics loc="23" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="8" coveredelements="8"/>
+      </file>
+    </package>
+    <package name="App\Features\Auth\Livewire">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Auth\Livewire\Login.php">
+        <class name="App\Features\Auth\Livewire\Login" namespace="App\Features\Auth\Livewire">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+        </class>
+        <line num="22" type="method" name="submit" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="37" type="method" name="render" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="39" type="stmt" count="3"/>
+        <metrics loc="42" ncloc="42" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+      </file>
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Auth\Livewire\Register.php">
+        <class name="App\Features\Auth\Livewire\Register" namespace="App\Features\Auth\Livewire">
+          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="15" coveredelements="15"/>
+        </class>
+        <line num="27" type="method" name="rules" visibility="protected" complexity="1" crap="1" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="37" type="method" name="submit" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="49" type="method" name="render" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="51" type="stmt" count="3"/>
+        <metrics loc="54" ncloc="51" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="15" coveredelements="15"/>
+      </file>
+    </package>
+    <package name="App\Features\Profile\Livewire">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Profile\Livewire\Profile.php">
+        <class name="App\Features\Profile\Livewire\Profile" namespace="App\Features\Profile\Livewire">
+          <metrics complexity="6" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="27" elements="33" coveredelements="33"/>
+        </class>
+        <line num="35" type="method" name="mount" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="37" type="stmt" count="6"/>
+        <line num="39" type="stmt" count="6"/>
+        <line num="40" type="stmt" count="6"/>
+        <line num="41" type="stmt" count="6"/>
+        <line num="44" type="method" name="saveProfile" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="58" type="method" name="savePassword" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="71" type="method" name="updatedPhoto" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="73" type="stmt" count="2"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="81" type="method" name="removePhoto" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="89" type="method" name="render" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="91" type="stmt" count="6"/>
+        <metrics loc="93" ncloc="93" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="27" elements="33" coveredelements="33"/>
+      </file>
+    </package>
+    <package name="App\Features\Profile\Services">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Profile\Services\ProfileService.php">
+        <class name="App\Features\Profile\Services\ProfileService" namespace="App\Features\Profile\Services">
+          <metrics complexity="6" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="20" coveredelements="20"/>
+        </class>
+        <line num="14" type="method" name="updateProfile" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="25" type="method" name="updatePassword" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="30" type="method" name="updatePhoto" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="39" type="method" name="removePhoto" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="48" type="method" name="deletePhotoFile" visibility="private" complexity="2" crap="2" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <metrics loc="55" ncloc="52" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="20" coveredelements="20"/>
+      </file>
+    </package>
+    <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Stock\Contracts\StockRepositoryInterface.php">
+      <metrics loc="38" ncloc="23" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="App\Features\Stock\Enums">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Stock\Enums\StockStatus.php">
+        <class name="App\Features\Stock\Enums\StockStatus" namespace="App\Features\Stock\Enums">
+          <metrics complexity="11" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="18" coveredelements="18"/>
+        </class>
+        <line num="11" type="method" name="label" visibility="public" complexity="4" crap="4" count="14"/>
+        <line num="13" type="stmt" count="14"/>
+        <line num="14" type="stmt" count="14"/>
+        <line num="15" type="stmt" count="8"/>
+        <line num="16" type="stmt" count="14"/>
+        <line num="17" type="stmt" count="14"/>
+        <line num="20" type="method" name="badgeClass" visibility="public" complexity="4" crap="4" count="14"/>
+        <line num="22" type="stmt" count="14"/>
+        <line num="23" type="stmt" count="14"/>
+        <line num="24" type="stmt" count="8"/>
+        <line num="25" type="stmt" count="14"/>
+        <line num="26" type="stmt" count="14"/>
+        <line num="29" type="method" name="fromQuantity" visibility="public" complexity="3" crap="3" count="20"/>
+        <line num="31" type="stmt" count="20"/>
+        <line num="32" type="stmt" count="6"/>
+        <line num="35" type="stmt" count="20"/>
+        <line num="36" type="stmt" count="5"/>
+        <line num="39" type="stmt" count="19"/>
+        <metrics loc="42" ncloc="42" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="18" coveredelements="18"/>
+      </file>
+    </package>
+    <package name="App\Features\Stock\Livewire">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Stock\Livewire\StockDetail.php">
+        <class name="App\Features\Stock\Livewire\StockDetail" namespace="App\Features\Stock\Livewire">
+          <metrics complexity="15" methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="52" coveredstatements="52" elements="62" coveredelements="62"/>
+        </class>
+        <line num="42" type="method" name="mount" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="44" type="stmt" count="7"/>
+        <line num="46" type="stmt" count="6"/>
+        <line num="47" type="stmt" count="6"/>
+        <line num="50" type="method" name="fillForm" visibility="private" complexity="2" crap="2" count="6"/>
+        <line num="52" type="stmt" count="6"/>
+        <line num="53" type="stmt" count="6"/>
+        <line num="54" type="stmt" count="6"/>
+        <line num="55" type="stmt" count="6"/>
+        <line num="56" type="stmt" count="6"/>
+        <line num="57" type="stmt" count="6"/>
+        <line num="58" type="stmt" count="6"/>
+        <line num="61" type="method" name="startEdit" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="68" type="method" name="cancelEdit" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="74" type="method" name="save" visibility="public" complexity="4" crap="4" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="1"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="95" type="stmt" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="99" type="stmt" count="1"/>
+        <line num="102" type="method" name="adjust" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="104" type="stmt" count="1"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="107" type="stmt" count="1"/>
+        <line num="110" type="method" name="updatedCover" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="112" type="stmt" count="2"/>
+        <line num="114" type="stmt" count="2"/>
+        <line num="116" type="stmt" count="1"/>
+        <line num="117" type="stmt" count="1"/>
+        <line num="118" type="stmt" count="1"/>
+        <line num="121" type="method" name="removeCover" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="123" type="stmt" count="1"/>
+        <line num="125" type="stmt" count="1"/>
+        <line num="126" type="stmt" count="1"/>
+        <line num="129" type="method" name="delete" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="131" type="stmt" count="1"/>
+        <line num="133" type="stmt" count="1"/>
+        <line num="135" type="stmt" count="1"/>
+        <line num="136" type="stmt" count="1"/>
+        <line num="139" type="method" name="render" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="141" type="stmt" count="6"/>
+        <metrics loc="143" ncloc="142" classes="1" methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="52" coveredstatements="52" elements="62" coveredelements="62"/>
+      </file>
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Stock\Livewire\StockList.php">
+        <class name="App\Features\Stock\Livewire\StockList" namespace="App\Features\Stock\Livewire">
+          <metrics complexity="35" methods="20" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="119" coveredstatements="119" elements="139" coveredelements="139"/>
+        </class>
+        <line num="75" type="method" name="updatedSearch" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="80" type="method" name="updatedStatusFilter" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="85" type="method" name="resetFilters" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="94" type="method" name="formRules" visibility="protected" complexity="1" crap="1" count="3"/>
+        <line num="96" type="stmt" count="3"/>
+        <line num="97" type="stmt" count="3"/>
+        <line num="98" type="stmt" count="3"/>
+        <line num="99" type="stmt" count="3"/>
+        <line num="100" type="stmt" count="3"/>
+        <line num="101" type="stmt" count="3"/>
+        <line num="102" type="stmt" count="3"/>
+        <line num="103" type="stmt" count="3"/>
+        <line num="104" type="stmt" count="3"/>
+        <line num="107" type="method" name="openCreate" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="109" type="stmt" count="1"/>
+        <line num="110" type="stmt" count="1"/>
+        <line num="111" type="stmt" count="1"/>
+        <line num="112" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="114" type="stmt" count="1"/>
+        <line num="117" type="method" name="openEdit" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="119" type="stmt" count="2"/>
+        <line num="121" type="stmt" count="1"/>
+        <line num="122" type="stmt" count="1"/>
+        <line num="123" type="stmt" count="1"/>
+        <line num="124" type="stmt" count="1"/>
+        <line num="125" type="stmt" count="1"/>
+        <line num="126" type="stmt" count="1"/>
+        <line num="127" type="stmt" count="1"/>
+        <line num="128" type="stmt" count="1"/>
+        <line num="129" type="stmt" count="1"/>
+        <line num="130" type="stmt" count="1"/>
+        <line num="133" type="method" name="closeForm" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="135" type="stmt" count="2"/>
+        <line num="136" type="stmt" count="2"/>
+        <line num="139" type="method" name="save" visibility="public" complexity="5" crap="5" count="3"/>
+        <line num="141" type="stmt" count="3"/>
+        <line num="143" type="stmt" count="3"/>
+        <line num="144" type="stmt" count="3"/>
+        <line num="145" type="stmt" count="3"/>
+        <line num="146" type="stmt" count="3"/>
+        <line num="147" type="stmt" count="3"/>
+        <line num="148" type="stmt" count="3"/>
+        <line num="149" type="stmt" count="3"/>
+        <line num="150" type="stmt" count="3"/>
+        <line num="151" type="stmt" count="3"/>
+        <line num="153" type="stmt" count="3"/>
+        <line num="154" type="stmt" count="1"/>
+        <line num="155" type="stmt" count="1"/>
+        <line num="157" type="stmt" count="2"/>
+        <line num="158" type="stmt" count="1"/>
+        <line num="159" type="stmt" count="1"/>
+        <line num="162" type="stmt" count="2"/>
+        <line num="163" type="stmt" count="2"/>
+        <line num="166" type="method" name="adjust" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="168" type="stmt" count="1"/>
+        <line num="171" type="method" name="delete" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="173" type="stmt" count="2"/>
+        <line num="175" type="stmt" count="1"/>
+        <line num="178" type="method" name="export" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="180" type="stmt" count="1"/>
+        <line num="182" type="stmt" count="1"/>
+        <line num="183" type="stmt" count="1"/>
+        <line num="184" type="stmt" count="1"/>
+        <line num="185" type="stmt" count="1"/>
+        <line num="186" type="stmt" count="1"/>
+        <line num="189" type="method" name="openImport" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="191" type="stmt" count="1"/>
+        <line num="192" type="stmt" count="1"/>
+        <line num="193" type="stmt" count="1"/>
+        <line num="196" type="method" name="closeImport" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="198" type="stmt" count="1"/>
+        <line num="199" type="stmt" count="1"/>
+        <line num="202" type="method" name="import" visibility="public" complexity="4" crap="4" count="3"/>
+        <line num="204" type="stmt" count="3"/>
+        <line num="205" type="stmt" count="3"/>
+        <line num="206" type="stmt" count="3"/>
+        <line num="208" type="stmt" count="3"/>
+        <line num="213" type="stmt" count="3"/>
+        <line num="214" type="stmt" count="1"/>
+        <line num="215" type="stmt" count="1"/>
+        <line num="217" type="stmt" count="1"/>
+        <line num="220" type="stmt" count="2"/>
+        <line num="221" type="stmt" count="2"/>
+        <line num="223" type="stmt" count="2"/>
+        <line num="226" type="stmt" count="1"/>
+        <line num="227" type="stmt" count="1"/>
+        <line num="230" type="method" name="openAi" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="232" type="stmt" count="1"/>
+        <line num="233" type="stmt" count="1"/>
+        <line num="234" type="stmt" count="1"/>
+        <line num="237" type="method" name="closeAi" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="239" type="stmt" count="1"/>
+        <line num="242" type="method" name="generateAi" visibility="public" complexity="3" crap="3" count="1"/>
+        <line num="244" type="stmt" count="1"/>
+        <line num="245" type="stmt" count="1"/>
+        <line num="246" type="stmt" count="1"/>
+        <line num="247" type="stmt" count="1"/>
+        <line num="249" type="stmt" count="1"/>
+        <line num="252" type="stmt" count="1"/>
+        <line num="253" type="stmt" count="1"/>
+        <line num="254" type="stmt" count="1"/>
+        <line num="256" type="stmt" count="1"/>
+        <line num="257" type="stmt" count="1"/>
+        <line num="258" type="stmt" count="1"/>
+        <line num="260" type="stmt" count="1"/>
+        <line num="263" type="stmt" count="1"/>
+        <line num="264" type="stmt" count="1"/>
+        <line num="267" type="method" name="saveAi" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="269" type="stmt" count="2"/>
+        <line num="271" type="stmt" count="1"/>
+        <line num="272" type="stmt" count="1"/>
+        <line num="273" type="stmt" count="1"/>
+        <line num="275" type="stmt" count="1"/>
+        <line num="276" type="stmt" count="1"/>
+        <line num="279" type="stmt" count="1"/>
+        <line num="280" type="stmt" count="1"/>
+        <line num="283" type="stmt" count="1"/>
+        <line num="284" type="stmt" count="1"/>
+        <line num="285" type="stmt" count="1"/>
+        <line num="288" type="method" name="ownedStock" visibility="private" complexity="1" crap="1" count="2"/>
+        <line num="290" type="stmt" count="2"/>
+        <line num="291" type="stmt" count="2"/>
+        <line num="293" type="stmt" count="1"/>
+        <line num="296" type="method" name="render" visibility="public" complexity="3" crap="3" count="11"/>
+        <line num="298" type="stmt" count="11"/>
+        <line num="300" type="stmt" count="11"/>
+        <line num="301" type="stmt" count="11"/>
+        <line num="302" type="stmt" count="11"/>
+        <line num="303" type="stmt" count="11"/>
+        <line num="304" type="stmt" count="11"/>
+        <line num="305" type="stmt" count="11"/>
+        <line num="306" type="stmt" count="11"/>
+        <line num="307" type="stmt" count="11"/>
+        <line num="308" type="stmt" count="11"/>
+        <metrics loc="311" ncloc="304" classes="1" methods="20" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="119" coveredstatements="119" elements="139" coveredelements="139"/>
+      </file>
+    </package>
+    <package name="App\Features\Stock\Models">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Stock\Models\Stock.php">
+        <class name="App\Features\Stock\Models\Stock" namespace="App\Features\Stock\Models">
+          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="11" coveredelements="11"/>
+        </class>
+        <line num="46" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="23"/>
+        <line num="48" type="stmt" count="23"/>
+        <line num="49" type="stmt" count="23"/>
+        <line num="50" type="stmt" count="23"/>
+        <line num="51" type="stmt" count="23"/>
+        <line num="52" type="stmt" count="23"/>
+        <line num="53" type="stmt" count="23"/>
+        <line num="56" type="method" name="newFactory" visibility="protected" complexity="1" crap="1" count="16"/>
+        <line num="58" type="stmt" count="16"/>
+        <line num="64" type="method" name="user" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <metrics loc="69" ncloc="50" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <package name="App\Features\Stock\Policies">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Stock\Policies\StockPolicy.php">
+        <class name="App\Features\Stock\Policies\StockPolicy" namespace="App\Features\Stock\Policies">
+          <metrics complexity="5" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="10" coveredelements="10"/>
+        </class>
+        <line num="10" type="method" name="viewAny" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="12" type="stmt" count="1"/>
+        <line num="15" type="method" name="view" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="17" type="stmt" count="8"/>
+        <line num="20" type="method" name="create" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="22" type="stmt" count="4"/>
+        <line num="25" type="method" name="update" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="27" type="stmt" count="7"/>
+        <line num="30" type="method" name="delete" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <metrics loc="35" ncloc="35" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="10" coveredelements="10"/>
+      </file>
+    </package>
+    <package name="App\Features\Stock\Repositories">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Stock\Repositories\StockRepository.php">
+        <class name="App\Features\Stock\Repositories\StockRepository" namespace="App\Features\Stock\Repositories">
+          <metrics complexity="6" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="29" coveredelements="29"/>
+        </class>
+        <line num="16" type="method" name="paginateForUser" visibility="public" complexity="1" crap="1" count="13"/>
+        <line num="18" type="stmt" count="13"/>
+        <line num="19" type="stmt" count="13"/>
+        <line num="20" type="stmt" count="13"/>
+        <line num="21" type="stmt" count="3"/>
+        <line num="22" type="stmt" count="3"/>
+        <line num="23" type="stmt" count="3"/>
+        <line num="24" type="stmt" count="3"/>
+        <line num="25" type="stmt" count="13"/>
+        <line num="26" type="stmt" count="13"/>
+        <line num="27" type="stmt" count="13"/>
+        <line num="28" type="stmt" count="13"/>
+        <line num="34" type="method" name="allForUser" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="39" type="method" name="statusCounts" visibility="public" complexity="1" crap="1" count="13"/>
+        <line num="41" type="stmt" count="13"/>
+        <line num="42" type="stmt" count="13"/>
+        <line num="43" type="stmt" count="13"/>
+        <line num="44" type="stmt" count="13"/>
+        <line num="45" type="stmt" count="13"/>
+        <line num="46" type="stmt" count="13"/>
+        <line num="48" type="stmt" count="13"/>
+        <line num="51" type="method" name="create" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="53" type="stmt" count="4"/>
+        <line num="56" type="method" name="update" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="58" type="stmt" count="5"/>
+        <line num="60" type="stmt" count="5"/>
+        <line num="63" type="method" name="delete" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="65" type="stmt" count="3"/>
+        <metrics loc="68" ncloc="62" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="29" coveredelements="29"/>
+      </file>
+    </package>
+    <package name="App\Features\Stock\Services">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Stock\Services\StockExcelService.php">
+        <class name="App\Features\Stock\Services\StockExcelService" namespace="App\Features\Stock\Services">
+          <metrics complexity="18" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="57" coveredstatements="57" elements="60" coveredelements="60"/>
+        </class>
+        <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="38" type="method" name="export" visibility="public" complexity="4" crap="4" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="71" type="method" name="import" visibility="public" complexity="13" crap="13" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="99" type="stmt" count="1"/>
+        <line num="100" type="stmt" count="1"/>
+        <line num="101" type="stmt" count="1"/>
+        <line num="102" type="stmt" count="1"/>
+        <line num="103" type="stmt" count="1"/>
+        <line num="105" type="stmt" count="1"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="107" type="stmt" count="1"/>
+        <line num="108" type="stmt" count="1"/>
+        <line num="109" type="stmt" count="1"/>
+        <line num="110" type="stmt" count="1"/>
+        <line num="111" type="stmt" count="1"/>
+        <line num="112" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="114" type="stmt" count="1"/>
+        <line num="117" type="stmt" count="1"/>
+        <metrics loc="120" ncloc="117" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="57" coveredstatements="57" elements="60" coveredelements="60"/>
+      </file>
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Features\Stock\Services\StockService.php">
+        <class name="App\Features\Stock\Services\StockService" namespace="App\Features\Stock\Services">
+          <metrics complexity="9" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+        </class>
+        <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="11"/>
+        <line num="19" type="method" name="create" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="21" type="stmt" count="4"/>
+        <line num="22" type="stmt" count="4"/>
+        <line num="24" type="stmt" count="4"/>
+        <line num="25" type="stmt" count="4"/>
+        <line num="26" type="stmt" count="4"/>
+        <line num="27" type="stmt" count="4"/>
+        <line num="28" type="stmt" count="4"/>
+        <line num="29" type="stmt" count="4"/>
+        <line num="30" type="stmt" count="4"/>
+        <line num="31" type="stmt" count="4"/>
+        <line num="32" type="stmt" count="4"/>
+        <line num="33" type="stmt" count="4"/>
+        <line num="34" type="stmt" count="4"/>
+        <line num="40" type="method" name="update" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="42" type="stmt" count="3"/>
+        <line num="43" type="stmt" count="3"/>
+        <line num="45" type="stmt" count="3"/>
+        <line num="46" type="stmt" count="3"/>
+        <line num="47" type="stmt" count="3"/>
+        <line num="48" type="stmt" count="3"/>
+        <line num="49" type="stmt" count="3"/>
+        <line num="52" type="method" name="adjustQuantity" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="59" type="stmt" count="2"/>
+        <line num="62" type="method" name="updateCover" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="64" type="stmt" count="2"/>
+        <line num="66" type="stmt" count="2"/>
+        <line num="68" type="stmt" count="2"/>
+        <line num="71" type="method" name="removeCover" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="78" type="method" name="delete" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="80" type="stmt" count="3"/>
+        <line num="81" type="stmt" count="3"/>
+        <line num="84" type="method" name="deleteCoverFile" visibility="private" complexity="2" crap="2" count="4"/>
+        <line num="86" type="stmt" count="4"/>
+        <line num="87" type="stmt" count="2"/>
+        <metrics loc="91" ncloc="85" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Http\Controllers\Controller.php">
+        <class name="App\Http\Controllers\Controller" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="9" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Middleware">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Http\Middleware\EnsureRole.php">
+        <class name="App\Http\Middleware\EnsureRole" namespace="App\Http\Middleware">
+          <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+        </class>
+        <line num="11" type="method" name="handle" visibility="public" complexity="3" crap="3" count="3"/>
+        <line num="13" type="stmt" count="3"/>
+        <line num="15" type="stmt" count="3"/>
+        <line num="16" type="stmt" count="3"/>
+        <line num="19" type="stmt" count="2"/>
+        <metrics loc="22" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+      </file>
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Http\Middleware\EnsureStockOwnership.php">
+        <class name="App\Http\Middleware\EnsureStockOwnership" namespace="App\Http\Middleware">
+          <metrics complexity="6" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="9" coveredelements="9"/>
+        </class>
+        <line num="12" type="method" name="handle" visibility="public" complexity="6" crap="6" count="3"/>
+        <line num="14" type="stmt" count="3"/>
+        <line num="16" type="stmt" count="3"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <metrics loc="30" ncloc="30" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="9" coveredelements="9"/>
+      </file>
+    </package>
+    <package name="App\Models">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Models\User.php">
+        <class name="App\Models\User" namespace="App\Models">
+          <metrics complexity="5" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="14" coveredelements="14"/>
+        </class>
+        <line num="42" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="38"/>
+        <line num="44" type="stmt" count="38"/>
+        <line num="45" type="stmt" count="38"/>
+        <line num="46" type="stmt" count="38"/>
+        <line num="47" type="stmt" count="38"/>
+        <line num="55" type="method" name="stocks" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="57" type="stmt" count="3"/>
+        <line num="63" type="method" name="isAdmin" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="65" type="stmt" count="14"/>
+        <line num="71" type="method" name="initials" visibility="public" complexity="2" crap="2" count="8"/>
+        <line num="73" type="stmt" count="8"/>
+        <line num="75" type="stmt" count="8"/>
+        <line num="76" type="stmt" count="8"/>
+        <line num="77" type="stmt" count="8"/>
+        <metrics loc="80" ncloc="49" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="14" coveredelements="14"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="C:\proyek\ifs24037-pabwe2026-sk-p7-laravel-livewire\app\Providers\AppServiceProvider.php">
+        <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
+          <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+        </class>
+        <line num="20" type="method" name="register" visibility="public" complexity="1" crap="1" count="46"/>
+        <line num="22" type="stmt" count="46"/>
+        <line num="23" type="stmt" count="46"/>
+        <line num="26" type="method" name="boot" visibility="public" complexity="3" crap="3" count="46"/>
+        <line num="28" type="stmt" count="46"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="46"/>
+        <line num="33" type="stmt" count="5"/>
+        <line num="34" type="stmt" count="46"/>
+        <line num="36" type="stmt" count="46"/>
+        <metrics loc="39" ncloc="39" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+      </file>
+    </package>
+    <metrics files="26" loc="1644" ncloc="1528" classes="23" methods="98" coveredmethods="98" conditionals="0" coveredconditionals="0" statements="498" coveredstatements="498" elements="596" coveredelements="596"/>
+  </project>
+</coverage>

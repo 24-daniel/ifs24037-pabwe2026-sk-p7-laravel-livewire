@@ -70,11 +70,7 @@ class Profile extends Component
 
     public function updatedPhoto(): void
     {
-        $this->validate(['photo' => ['image', 'max:2048']]);
-
-        if ($this->photo === null) {
-            return;
-        }
+        $this->validate(['photo' => ['required', 'image', 'max:2048']]);
 
         app(ProfileService::class)->updatePhoto(Auth::user(), $this->photo);
 

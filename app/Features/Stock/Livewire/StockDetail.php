@@ -111,11 +111,7 @@ class StockDetail extends Component
     {
         Gate::authorize('update', $this->stock);
 
-        $this->validate(['cover' => ['image', 'max:2048']]);
-
-        if ($this->cover === null) {
-            return;
-        }
+        $this->validate(['cover' => ['required', 'image', 'max:2048']]);
 
         $this->stock = app(StockService::class)->updateCover($this->stock, $this->cover);
         $this->reset('cover');
